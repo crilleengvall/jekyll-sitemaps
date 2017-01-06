@@ -19,8 +19,7 @@ If you do not use images you can remove lines 4 to 8.
     <image:title><![CDATA[{{ post.title }}]]></image:title>
     <image:caption><![CDATA[{{ post.title }}]]></image:caption>
   </image:image>
-``
-
+```
 ## Categories
 This plugin supports jekyll-archives. This sitemap is created with the category-sitemap.xml file. If you do not use the jekyll archives plugin you should delete category-sitemap.xml and remove the following from sitemap.xml:
 ```
