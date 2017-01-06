@@ -25,10 +25,11 @@ If you do not use collections you can delete project-sitemap.xml and the followi
 	</sitemap>
 ```
 
-If you do use collections you need to change this:
-1. Change site.projects to site.<name-of-collection> in project-sitemap.xml
-2. Change filename of project-sitemap.xml to <name-of-collection>-sitemap.xml
-3. Change the reference from project-sitemap.xml to <name-of-collection> in sitemap.xml:
+If you do use collections you need to change this:    
+    
+1. Change site.projects to site.<name-of-collection> in project-sitemap.xml    
+2. Change filename of project-sitemap.xml to <name-of-collection>-sitemap.xml    
+3. Change the reference from project-sitemap.xml to <name-of-collection> in sitemap.xml:    
 ```
 	<sitemap>
 		<loc>{{ site.url }}/<name-of-collection>-sitemap.xml</loc>
