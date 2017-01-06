@@ -6,6 +6,13 @@ Live example: [https://www.christianengvall.se/sitemap.xml](https://www.christia
 1. [Download](https://github.com/crilleengvall/jekyll-sitemaps/archive/master.zip "Download jekyll sitemaps") Jekyll sitemaps.
 2. Copy `category-sitemap.xml`, `page-sitemap.xml`, `post-sitemap.xml`, `project-sitemap.xml` and `sitemap.xml` to your root folder.
 3. Copy `_includes/single-post-sitemap.html` to your `_includes` folder.
+4. Edit images in `single-post-sitemap.xml` as described under Images below.
+5. If you do not use jekyll-archives plugin disable that as described under Categories below.
+6. Edit or remove collections sitemap as described under Collections below.
+
+## Images
+[Google supports adding images](https://support.google.com/webmasters/answer/178636?hl=en "Sitemap images") to the sitemap. You need to edit the image url of your post(if any) on line 5 in `single-post-sitemap.html`.    
+If you do not use images you can remove lines 4 to 8.
 
 ## Categories
 This plugin supports jekyll-archives. This sitemap is created with the category-sitemap.xml file. If you do not use the jekyll archives plugin you should delete category-sitemap.xml and remove the following from sitemap.xml:
