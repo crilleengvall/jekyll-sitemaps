@@ -1,0 +1,9 @@
+<url>
+  <loc>{{ post.url | absolute_url }}</loc>
+  <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+  <image:image>
+    <image:loc>{{ post.image.source | absolute_url }}</image:loc>
+    <image:title><![CDATA[{{ post.title }}]]></image:title>
+    <image:caption><![CDATA[{{ post.title }}]]></image:caption>
+  </image:image>
+</url>
