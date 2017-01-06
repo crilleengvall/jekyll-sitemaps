@@ -13,6 +13,13 @@ Live example: [https://www.christianengvall.se/sitemap.xml](https://www.christia
 ## Images
 [Google supports adding images](https://support.google.com/webmasters/answer/178636?hl=en "Sitemap images") to the sitemap. You need to edit the image url of your post(if any) on line 5 in `single-post-sitemap.html`.    
 If you do not use images you can remove lines 4 to 8.
+```
+  <image:image>
+    <image:loc>{{ post.image.source | absolute_url }}</image:loc>
+    <image:title><![CDATA[{{ post.title }}]]></image:title>
+    <image:caption><![CDATA[{{ post.title }}]]></image:caption>
+  </image:image>
+``
 
 ## Categories
 This plugin supports jekyll-archives. This sitemap is created with the category-sitemap.xml file. If you do not use the jekyll archives plugin you should delete category-sitemap.xml and remove the following from sitemap.xml:
