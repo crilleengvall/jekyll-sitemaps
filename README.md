@@ -1,3 +1,5 @@
+![Jekyll sitemaps](https://www.christianengvall.se/wp-content/uploads/2017/01/jekyll-sitemaps.png "Jekyll sitemaps logo")
+
 # jekyll-sitemaps
 Generates sitemap for pages, posts, archives/categories, collections and images.    
 Live example: [https://www.christianengvall.se/sitemap.xml](https://www.christianengvall.se/sitemap.xml "Live example")
